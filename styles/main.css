@@ -1,0 +1,37 @@
+html {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Arial, sans-serif;
+  background-color: honeydew;
+}
+
+body {
+  font-size: 14px;  
+  text-align: center;
+  margin-top: 40px;
+}
+h1 {
+  margin-bottom: 50px;
+  text-shadow: 1px 1px green;
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin-right: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<!--[if lte IE 9]>
+<html lang="en" class="oldie">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="chioy" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="styles/main.css" type="text/css"/> 
+    <title>URL-shortener</title>
+  </head>
+<body>
+  <h1>URL-shortener</h1>
+  <h3>Please enter a url</h3>
+  <form>
+    <input id="str" type="text" value="www.google.com">
+    <button type="button" id="button" onclick="window.open('https://url-shortener3.glitch.me/new/' + document.getElementById('str').value,'_blank')" >Short it!</button>
+  </form>  
+</body>
+</html>
